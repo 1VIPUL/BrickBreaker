@@ -13,7 +13,10 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
+            android:name=".HighScoresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Score"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
